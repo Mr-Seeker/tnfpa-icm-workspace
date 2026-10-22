@@ -2,6 +2,26 @@
 
 > 📘 **User Manual** (this page) · 📄 [Project README](tnfpa-icm/README.md) · ⚖️ [License — Apache 2.0](LICENSE)
 
+### 🚀 Get started in 3 steps
+
+1. **Download:** go to **Releases → v1.0 → Source code (zip)** and unzip it. If you have a GitHub account, you can click **Use this template** instead to get your own copy.
+2. **Open the `tnfpa-icm` folder with your AI agent** (Claude, Codex or any agent that can read and edit files). You also need a spreadsheet app that recalculates `.xlsx` files: Excel, LibreOffice Calc, Google Sheets, OnlyOffice, Zoho Sheet or WPS. There's nothing to install and no code to run.
+3. **Tell the agent:** *"Help me onboard our company. Our Tally exports are in ./company-data. Inspect them first, then ask me only what you cannot determine."*
+
+Full walkthrough: [§2 Quick start](#2-quick-start)
+
+### 🔍 See it working first
+
+- **[Kaveri Chairs, Coimbatore](tnfpa-icm/examples/kaveri-chairs-coimbatore)**: a complete synthetic Tamil Nadu company, from Tally export and GST/TDS/PF/ESI cash calendar to a board deck.
+- **[Fox Factory public proof](tnfpa-icm/examples/foxfactory-public-proof)**: rebuilt from real public SEC filings and reproduces the published figures.
+- **[Ridgeline parity](tnfpa-icm/examples/ridgeline-parity)**: reproduces openfpa's published outputs exactly.
+
+### ⚠️ Disclaimer
+
+This workspace is a planning and analysis tool. It is not tax, legal, accounting or investment advice. Statutory rates, thresholds and due dates (GST, TDS, PF/ESI, professional tax and others) change, so confirm them against current rules and with your CA or tax adviser, and record confirmations in `tnfpa-icm/01_tamil-nadu/verification-register.md`. The example companies use synthetic data. Provided "as is" under the Apache 2.0 License, without warranty.
+
+---
+
 ## 1. Introduction
 
 The TN-FPA ICM workspace is a folder-based, no-code FP&A system for Tamil Nadu companies: an AI agent reads its markdown contracts, spreadsheets do every calculation, and humans approve two gates. It replaces the open-source openfpa toolkit (Python, CLI, tests) with folders, markdown, CSV registries and formula-driven workbooks, laid out using Interpretable Context Methodology (ICM).
