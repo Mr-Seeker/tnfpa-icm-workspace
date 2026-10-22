@@ -1,0 +1,5 @@
+name,kind,description,procedure,workbook,working_directory,inputs,outputs,registered_at
+kvr-cash13,cash,13-week direct cash with TN statutory dates,../../03_workflows/W05_cash-runway/CONTEXT.md,models/K02_2026-04-06.xlsx,.,data/raw/indian-bank-statement-2026-04-03.csv; domains/D04_hris-workforce-management/D04_hris-workforce-management.xlsx; domains/D24_tax-transfer-pricing/D24_tax-transfer-pricing.xlsx,output/2026-04-06-cash-runway.md,2026-04-06
+kvr-close,close,Monthly close and latest estimate,../../03_workflows/W04_monthly-close/CONTEXT.md,models/K01_champion.xlsx,.,data/raw/tally-pl-FY2025-26.csv,output/,2026-03-28
+kvr-forecast,forecast,FY2026-27 budget model (champion),../../03_workflows/W02_scaffold-model/CONTEXT.md,models/K01_champion.xlsx,.,memory/sources/registry.csv,memory/forecasts/Budget-FY2026-27.snapshot.md,2026-03-28
+kvr-tally-pl,connector,"Tally P&L export recipe, fixture-validated",connectors/tally-pl-monthly/connector.md,,.,data/raw/tally-pl-FY2025-26.csv,data/normalized/,2026-04-02

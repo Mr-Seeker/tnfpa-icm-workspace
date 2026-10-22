@@ -1,0 +1,27 @@
+source_id,source_value,target,status,rationale
+foxf-income-statement,net_sales,income_statement.net_sales,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,cost_of_sales,income_statement.cost_of_sales,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,gross_profit,income_statement.gross_profit,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,general_and_admin,income_statement.general_and_admin,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,research_and_development,income_statement.research_and_development,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,goodwill_impairment,income_statement.goodwill_impairment,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,operating_income,income_statement.operating_income,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,interest_expense,income_statement.interest_expense,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,income_tax,income_statement.income_tax,mapped,Normalized field used by the Fox worked example.
+foxf-income-statement,net_income,income_statement.net_income,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,cash,balance_sheet.cash,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,accounts_receivable,balance_sheet.accounts_receivable,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,inventory,balance_sheet.inventory,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,accounts_payable,balance_sheet.accounts_payable,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,long_term_debt_total,balance_sheet.long_term_debt_total,mapped,Normalized field used by the Fox worked example.
+foxf-balance-sheet,goodwill,balance_sheet.goodwill,mapped,Normalized field used by the Fox worked example.
+foxf-cash-flow,operating_cash_flow,cash_flow.operating_cash_flow,mapped,Normalized field used by the Fox worked example.
+foxf-cash-flow,capex,cash_flow.capex,mapped,Normalized field used by the Fox worked example.
+foxf-cash-flow,depreciation_amortization,cash_flow.depreciation_amortization,mapped,Normalized field used by the Fox worked example.
+foxf-segments,PVG.net_sales,segments.PVG.net_sales,mapped,Normalized field used by the Fox worked example.
+foxf-segments,PVG.adjusted_ebitda,segments.PVG.adjusted_ebitda,mapped,Normalized field used by the Fox worked example.
+foxf-segments,AAG.net_sales,segments.AAG.net_sales,mapped,Normalized field used by the Fox worked example.
+foxf-segments,AAG.adjusted_ebitda,segments.AAG.adjusted_ebitda,mapped,Normalized field used by the Fox worked example.
+foxf-segments,SSG.net_sales,segments.SSG.net_sales,mapped,Normalized field used by the Fox worked example.
+foxf-segments,SSG.adjusted_ebitda,segments.SSG.adjusted_ebitda,mapped,Normalized field used by the Fox worked example.
+foxf-quarterly,net_sales,quarterly.net_sales,mapped,Normalized field used by the Fox worked example.

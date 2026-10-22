@@ -1,0 +1,16 @@
+field,value
+name,Ridgeline Chair Co.
+start_month,2026-01
+horizon_months,12
+tax_rate,0.21
+channels[0],"D2C: annual 3000000, growth 0.1, cogs 0.42, seasonality [0.6, 0.6, 0.8, 1.0, 1.4, 1.6, 1.4, 1.2, 0.9, 0.8, 0.9, 0.8]"
+channels[1],"Amazon: annual 2000000, growth 0.05, cogs 0.5, seasonality [0.7, 0.7, 0.9, 1.0, 1.3, 1.5, 1.3, 1.1, 0.9, 0.9, 0.9, 0.8]"
+channels[2],"Wholesale: annual 1000000, growth 0.03, cogs 0.6, seasonality [1.4, 1.6, 1.2, 1.0, 0.8, 0.6, 0.6, 0.7, 0.9, 1.0, 1.1, 1.1]"
+opex[0],Marketing: variable 0.12
+opex[1],Payroll: fixed 110000
+opex[2],Software & Tools: fixed 9000
+opex[3],Rent & Facilities: fixed 14000
+debt[0],LOC: loc open 600000 rate 0.105 principal 0
+debt[1],Term Loan: term_loan open 480000 rate 0.085 principal 10000
+working_capital,"{'dso_days': 38, 'dpo_days': 32, 'dio_days': 95}"
+opening_balances,"{'cash': 350000, 'ar': 486000, 'ap': 204000, 'inventory': 606000, 'nol': 0}"

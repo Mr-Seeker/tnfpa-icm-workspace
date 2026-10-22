@@ -1,0 +1,14 @@
+﻿measure,definition (plain language),formula (spreadsheet-style),format,notes
+Revenue,Sum of revenue for the selected periods,SUM(fact_monthly_model[revenue]),₹ lakh,ex-GST
+Gross margin %,Gross profit divided by revenue for the selection,SUM(gross_profit)/SUM(revenue),0.0%,ratio of sums - never average monthly %
+EBITDA,Sum of EBITDA,SUM(ebitda),₹ lakh,true EBITDA (D&A modelled)
+EBITDA margin %,EBITDA divided by revenue,SUM(ebitda)/SUM(revenue),0.0%,
+Net income,Sum of net income,SUM(net_income),₹ lakh,
+Free cash flow,Sum of FCF,SUM(free_cash_flow),₹ lakh,excludes one-time proceeds
+Ending cash,Ending cash of the LAST period in the selection,LAST(ending_cash by period),₹ lakh,stock - never sum
+Net debt,Ending debt minus ending cash at the last period,LAST(ending_debt)-LAST(ending_cash),₹ lakh,
+DSO (implied),AR at last period / revenue of last period x 30,LAST(ar_balance)/LAST(revenue)*30,0.0 days,matches K01 convention
+Forecast fitness,Latest scored snapshot fitness,LAST(fact_scorecard[fitness]),0.0000,lower is better
+13-week trough,Minimum ending cash across the run's weeks,MIN(fact_cash13[ending_cash]),₹ lakh,raw unfinanced
+First negative week,First week with ending cash below zero,MIN(week where ending_cash<0),0,blank = none
+Budget variance,Actual minus budget for the selection,SUM(actual)-SUM(budget),₹ lakh,from D01 Versions

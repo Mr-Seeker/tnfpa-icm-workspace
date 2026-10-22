@@ -1,0 +1,207 @@
+﻿openfpa_file,replacement_in_this_workspace,treatment,notes
+.claude-plugin/plugin.json,CLAUDE.md + 03_workflows/ (agent-agnostic entry),replaced,plugin manifest unnecessary: any agent reads CLAUDE.md/AGENTS.md
+.github/workflows/ci.yml,Checks sheets in every workbook; examples/*/models GOLDEN rows; 00_system/status-and-doctor.md,replaced,CI ran pytest on 3 Python versions; here verification is recalculation + Checks = PASS in any spreadsheet engine
+.gitignore,"00_system/guardrails.md #16 (no credentials, redacted fixtures)",replaced,no build artefacts exist; privacy rules cover what must not be stored
+AGENTS.md,00_system/operating-contract.md; 00_system/guardrails.md; AGENTS.md (pointer),rewritten,every rule kept; CLI/Python references replaced
+CLAUDE.md,CLAUDE.md,rewritten,routing + onboarding steps; CLI calls → file procedures
+CONTRIBUTING.md,00_system/no-code-policy.md; 00_system/CONTEXT.md (method changes via decision files),replaced,"contribution = new workbooks/contracts under the no-code policy, never real client data"
+LICENSE,README.md (licence and credit section),carried,MIT attribution to openfpa authors retained
+README.md,README.md; CONTEXT.md,rewritten,"intent, workflow, design principles carried over; Python install steps replaced by 'open the folder with your agent'"
+docs/agent-native-workspace.md,CONTEXT.md; 00_system/operating-contract.md; _templates/company/,rewritten,"workspace shape, onboarding, memory, research, mutation rules"
+docs/blog/launch.md,README.md,summarised,launch narrative superseded by README
+docs/demo/briefing.md,examples/ridgeline-parity/output/briefing.md (and reproduced by K01 Briefing),carried,
+docs/superpowers/plans/2026-06-06-pyfpa-engine-core.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-07-foxfactory-worked-example.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-07-pyfpa-cash13.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-07-pyfpa-demo-storefront.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-07-pyfpa-io.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-08-backtest-learning-loop.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-08-memory-corrections.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-08-portfolio-learning.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-09-cli-refactor-learning-loop.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/plans/2026-06-10-excel-live-model.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-06-open-fpa-copilot-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-07-foxfactory-worked-example-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-08-backtest-learning-loop-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-08-memory-corrections-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-08-portfolio-learning-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+docs/superpowers/specs/2026-06-10-excel-live-model-design.md,00_system/kernel-equivalents.md; 02_kernel/CONTEXT.md (verification),superseded,implementation plan/spec for Python code; the designed behaviour is delivered by the workbooks and contracts
+examples/foxfactory/.fpa/MEMORY.md,examples/foxfactory-public-proof/memory/MEMORY.md,carried,
+examples/foxfactory/.fpa/business-profile.md,examples/foxfactory-public-proof/memory/business-profile.md,carried,
+examples/foxfactory/.fpa/corrections/.gitkeep,examples/foxfactory-public-proof/memory/corrections/CONTEXT.md,replaced,folder purpose file instead of .gitkeep
+examples/foxfactory/.fpa/decisions/initial-model-architecture.md,examples/foxfactory-public-proof/memory/decisions/initial-model-architecture.md,carried,
+examples/foxfactory/.fpa/experiments/.gitkeep,examples/foxfactory-public-proof/memory/experiments/CONTEXT.md,replaced,folder purpose file instead of .gitkeep
+examples/foxfactory/.fpa/forecasts/.gitkeep,examples/foxfactory-public-proof/memory/forecasts/CONTEXT.md,replaced,folder purpose file instead of .gitkeep
+examples/foxfactory/.fpa/intake.md,examples/foxfactory-public-proof/memory/intake.csv + intake-notes.md,converted,
+examples/foxfactory/.fpa/learnings.md,examples/foxfactory-public-proof/memory/learnings.md,carried,
+examples/foxfactory/.fpa/mappings/registry.yaml,examples/foxfactory-public-proof/memory/mappings/registry.csv,converted,
+examples/foxfactory/.fpa/models/entrypoints.yaml,examples/foxfactory-public-proof/memory/models/workflows.csv,converted,
+examples/foxfactory/.fpa/models/registry.yaml,examples/foxfactory-public-proof/memory/models/model-versions.csv,converted,
+examples/foxfactory/.fpa/research/foxf-fy2025-001-broad-mean-reversion.epoch.yaml,examples/foxfactory-public-proof/memory/research/epochs/foxf-fy2025-001-broad-mean-reversion.md,converted,
+examples/foxfactory/.fpa/research/foxf-fy2025-002-slow-margin-recovery.epoch.yaml,examples/foxfactory-public-proof/memory/research/epochs/foxf-fy2025-002-slow-margin-recovery.md,converted,
+examples/foxfactory/.fpa/research/objective.yaml,examples/foxfactory-public-proof/memory/research/objective.md,converted,
+examples/foxfactory/.fpa/scorecard.md,examples/foxfactory-public-proof/memory/scorecard.md,carried,
+examples/foxfactory/.fpa/sources/registry.yaml,examples/foxfactory-public-proof/memory/sources/registry.csv,converted,
+examples/foxfactory/README.md,examples/foxfactory-public-proof/CONTEXT.md,rewritten,
+examples/foxfactory/data/SOURCES.md,examples/foxfactory-public-proof/data/raw/SOURCES.md,carried,public SEC data
+examples/foxfactory/data/balance_sheet.csv,examples/foxfactory-public-proof/data/raw/balance_sheet.csv,carried,public SEC data
+examples/foxfactory/data/cash_flow.csv,examples/foxfactory-public-proof/data/raw/cash_flow.csv,carried,public SEC data
+examples/foxfactory/data/income_statement.csv,examples/foxfactory-public-proof/data/raw/income_statement.csv,carried,public SEC data
+examples/foxfactory/data/quarterly.csv,examples/foxfactory-public-proof/data/raw/quarterly.csv,carried,public SEC data
+examples/foxfactory/data/segments.csv,examples/foxfactory-public-proof/data/raw/segments.csv,carried,public SEC data
+examples/foxfactory/foxf_model.py,"examples/foxfactory-public-proof/models/phaseA_*, phaseB_*, phaseC_*, phaseD_* workbooks + runbook",replaced,every phase verified vs published outputs
+examples/foxfactory/output/divestiture.md,examples/foxfactory-public-proof/output/divestiture.md,carried,reproduced by workbooks
+examples/foxfactory/output/forecast-briefing.md,examples/foxfactory-public-proof/output/forecast-briefing.md,carried,reproduced by workbooks
+examples/foxfactory/output/foxf-forecast.xlsx,examples/foxfactory-public-proof/models/phaseC_FY2026.xlsx + phaseC_FY2027.xlsx (Export_Rows),replaced,static values → live workbooks
+examples/foxfactory/output/historical-holdout.md,examples/foxfactory-public-proof/output/historical-holdout.md,carried,reproduced by workbooks
+examples/foxfactory/output/reconciliation.md,examples/foxfactory-public-proof/output/reconciliation.md,carried,reproduced by workbooks
+examples/foxfactory/pull_edgar.py,examples/foxfactory-public-proof/models/pipeline-runbook.md step 1 (download recipe),replaced,
+examples/foxfactory/run_foxf.py,examples/foxfactory-public-proof/models/pipeline-runbook.md,replaced,
+examples/foxfactory/skills/generated/segment-rollup/SKILL.md,examples/generated-skills/segment-rollup/SKILL.md; 02_kernel/K07,rewritten,
+examples/ridgeline/cash13.yaml,examples/ridgeline-parity/models/K02_ridgeline.xlsx; examples/ridgeline-parity/data/cash13-flows.csv,converted,
+examples/ridgeline/config.yaml,examples/ridgeline-parity/models/K01_ridgeline.xlsx; examples/ridgeline-parity/data/config-assumptions.csv,converted,
+examples/ridgeline/quickbooks_pl_sample.csv,examples/ridgeline-parity/data/quickbooks_pl_sample.csv,carried,
+examples/ridgeline/run_demo.py,examples/ridgeline-parity/CONTEXT.md (open workbooks; Checks GOLDEN rows),replaced,
+examples/ridgeline/skus.yaml,examples/ridgeline-parity/models/K06_ridgeline-skus.xlsx; examples/ridgeline-parity/data/skus.csv,converted,
+pyfpa/__init__.py,00_system/kernel-equivalents.md,replaced,every exported name mapped
+pyfpa/analysis/__init__.py,K03/K06/K07/K08,replaced,
+pyfpa/analysis/divestiture.py,02_kernel/K08,replaced,verified vs Fox Phase D
+pyfpa/analysis/reconcile.py,K03 Results variances; D01 Versions,replaced,
+pyfpa/analysis/segments.py,02_kernel/K07,replaced,verified vs Fox Phase C
+pyfpa/analysis/sku.py,02_kernel/K06,replaced,verified vs Ridgeline SKUs
+pyfpa/backtest/__init__.py,02_kernel/K04,replaced,
+pyfpa/backtest/holdout.py,K04 Holdout + fit-only K01 copy (W09),replaced,
+pyfpa/backtest/learn.py,"K04 Learning_Guards (persistent_miss, magnitude_cap) + Scorecard (render_scorecard)",replaced,verified
+pyfpa/backtest/score.py,K04 Score; K01 Summary (extract_lines),replaced,verified
+pyfpa/backtest/snapshot.py,_templates/snapshot.md; 00_system/schemas/snapshot.md; K01 Summary snapshot block,replaced,
+pyfpa/cash13/__init__.py,02_kernel/K02,replaced,
+pyfpa/cash13/flows.py,K02 Grid,replaced,verified
+pyfpa/cash13/forecast.py,K02 Weekly,replaced,verified
+pyfpa/cash13/runway.py,K02 Runway,replaced,verified vs goldens -146000 / 7 / 3
+pyfpa/cash13/schemas.py,K02 Setup/Flows + Checks,replaced,
+pyfpa/cli.py,00_system/command-equivalents.md,replaced,24 commands → file procedures with result blocks
+pyfpa/cli_commands/__init__.py,00_system/command-equivalents.md,replaced,
+pyfpa/cli_commands/learning.py,00_system/command-equivalents.md #18-#23; K04; K10; K11,replaced,correction/scorecard/experiment/context-pack/onboarding commands
+pyfpa/cli_commands/lineage.py,00_system/command-equivalents.md #5-#13; K03,replaced,source/mapping/reconcile/connector commands incl. --allow-unmapped
+pyfpa/cli_commands/reporting.py,00_system/command-equivalents.md #24; K01,replaced,model-export
+pyfpa/cli_helpers.py,"00_system/command-equivalents.md (result block, path rules)",replaced,
+pyfpa/config/__init__.py,02_kernel/K01 (Assumptions),replaced,
+pyfpa/config/loader.py,02_kernel/K01 Assumptions + Checks; K02 Setup/Flows; K06 SKUs,replaced,YAML loading → typing into input cells; validation → Checks
+pyfpa/config/schemas.py,02_kernel/K01 Checks 1-12; 00_system/schemas/model-config.md,replaced,all pydantic validators reproduced
+pyfpa/excel/__init__.py,K01 (the live-formula workbook itself),replaced,
+pyfpa/excel/model_workbook.py,K01 Assumptions/Effective/Model,replaced,same named-cell and formula design
+pyfpa/excel/toolkit.py,02_kernel/formula-reference.md (toolkit conventions),replaced,
+pyfpa/excel/verify.py,K01 Checks (identities every month + GOLDEN parity rows),replaced,
+pyfpa/io/__init__.py,"K03, K01 Briefing/Export_Rows",replaced,
+pyfpa/io/adapters.py,01_tamil-nadu/data-sources-india.md; _templates/connector/; examples/ridgeline-parity/data/fixtures/,replaced,fixture adapters → fixtures + export recipes
+pyfpa/io/fixtures/netsuite_pl.csv,examples/ridgeline-parity/data/fixtures/netsuite_pl.csv,carried,
+pyfpa/io/fixtures/quickbooks_pl.csv,examples/ridgeline-parity/data/fixtures/quickbooks_pl.csv,carried,
+pyfpa/io/fixtures/shopify_summary.csv,examples/ridgeline-parity/data/fixtures/shopify_summary.csv,carried,
+pyfpa/io/loaders.py,K01/K02/K06 input sheets,replaced,
+pyfpa/io/pl_csv.py,"K03 Reconcile parsing (+ ₹, Rs., INR, Dr/Cr, lakh commas)",replaced,verified
+pyfpa/io/reporting.py,K01 Briefing (to_briefing_md) + Export_Rows (forecast_to_excel),replaced,verified text-exact
+pyfpa/memory/__init__.py,_templates/company/memory/; 00_system/schemas/,replaced,
+pyfpa/memory/connectors.py,_templates/connector/; 00_system/schemas/connector.md; K03 fixture validation (tolerance 0),replaced,connector.py/run.py code bundle → recipe + fixture + golden totals
+pyfpa/memory/corrections.py,_templates/correction.md; K01 Corrections; W08,replaced,
+pyfpa/memory/diagnostics.py,00_system/status-and-doctor.md (doctor),replaced,
+pyfpa/memory/entrypoints.py,memory/models/workflows.csv; 00_system/schemas/workflow-registry.md,replaced,command → procedure + workbook
+pyfpa/memory/experiments.py,_templates/experiment.md; 00_system/schemas/experiment.md,replaced,ratification rules kept
+pyfpa/memory/inspection.py,K03 Inspect + Classifiers (+ GST/TDS/payroll/Tally categories),replaced,verified
+pyfpa/memory/intake.py,K10 QuestionBank/Facts/Readiness/RecordFact; memory/intake.csv,replaced,progressive authority reproduced; + TN question bank
+pyfpa/memory/lineage.py,memory/sources/registry.csv; memory/mappings/registry.csv; K03 Profile/Reconcile,replaced,
+pyfpa/memory/onboarding.py,K10 Profile/Proposal,replaced,renderers reproduced
+pyfpa/memory/paths.py,"K01 Corrections/Effective/ValidKeys (path syntax name, name[n], name[*])",replaced,
+pyfpa/memory/retrieval.py,K11; memory/index.csv,replaced,lexical scoring reproduced
+pyfpa/memory/workspace.py,_templates/company/ (init),replaced,"default objective, registries, MEMORY.md reproduced"
+pyfpa/models/__init__.py,02_kernel/K01,replaced,
+pyfpa/models/cashflow.py,"K01 Model (tax with NOL, net income, OCF, FCF, cash) + Export_Rows",replaced,verified vs Ridgeline goldens
+pyfpa/models/cogs.py,"K01 Model cogs_ch1..8, cogs",replaced,verified
+pyfpa/models/debt.py,K01 Model debt_balance/interest/principal per instrument,replaced,verified
+pyfpa/models/opex.py,"K01 Model opex_1..15, opex",replaced,verified
+pyfpa/models/periods.py,"K01 Model rows month_no, period_start, active (+ Indian FY, quarter)",replaced,
+pyfpa/models/revenue.py,"K01 Model revenue_ch1..8, revenue",replaced,verified < 1e-12
+pyfpa/models/working_capital.py,"K01 Model ar/ap/inv balances, wc_cash_impact",replaced,verified
+pyfpa/portfolio/__init__.py,02_kernel/K09; portfolio/,replaced,
+pyfpa/portfolio/library.py,"portfolio/library/ (priors CSV, skills, library-log.md); W11",replaced,
+pyfpa/portfolio/manifest.py,portfolio/portfolio.csv; K09 Clients,replaced,
+pyfpa/portfolio/mine.py,"K09 Mine, Skills",replaced,verified
+pyfpa/portfolio/recover.py,"K04 Snapshots (recovered actuals, best_snapshot)",replaced,
+pyfpa/portfolio/validate.py,K09 Validate (leave-one-out),replaced,verified peer medians
+pyfpa/py.typed,00_system/schemas/,not needed,type information lives in schemas
+pyfpa/research/__init__.py,02_kernel/K05,replaced,
+pyfpa/research/epochs.py,K05 Epochs; _templates/epoch.md,replaced,verified vs both Fox epochs
+pyfpa/research/objective.py,K05 Objective; memory/research/objective.md,replaced,
+pyfpa/research/registry.py,K05 Promotion; memory/models/model-versions.csv + promotions.csv,replaced,recompute guard kept
+pyproject.toml,00_system/no-code-policy.md,not needed,no packages or dependencies
+pytest.ini,Checks sheets,not needed,no test runner
+skills/fpa-backtest-learn/SKILL.md,03_workflows/W09_backtest-learn/CONTEXT.md,rewritten,
+skills/fpa-board-briefing/SKILL.md,03_workflows/W07_board-briefing/CONTEXT.md,rewritten,
+skills/fpa-capture-correction/SKILL.md,03_workflows/W08_capture-correction/CONTEXT.md,rewritten,
+skills/fpa-cash-runway/SKILL.md,03_workflows/W05_cash-runway/CONTEXT.md,rewritten,
+skills/fpa-cfo-judgment/SKILL.md,03_workflows/W00_cfo-judgment/CONTEXT.md (+ tn-reflexes.md),rewritten,
+skills/fpa-configure-actuals/SKILL.md,03_workflows/W03_configure-actuals/CONTEXT.md,rewritten,
+skills/fpa-excel-model/SKILL.md,03_workflows/W06_live-excel-model/CONTEXT.md,rewritten,
+skills/fpa-learn-business/SKILL.md,03_workflows/W01_learn-business/CONTEXT.md,rewritten,
+skills/fpa-monthly-close/SKILL.md,03_workflows/W04_monthly-close/CONTEXT.md,rewritten,
+skills/fpa-portfolio-learn/SKILL.md,03_workflows/W11_portfolio-learn/CONTEXT.md,rewritten,
+skills/fpa-research-loop/SKILL.md,03_workflows/W10_research-loop/CONTEXT.md,rewritten,
+skills/fpa-scaffold-model/SKILL.md,03_workflows/W02_scaffold-model/CONTEXT.md,rewritten,
+skills/generated/sku-profitability/SKILL.md,examples/generated-skills/sku-profitability/SKILL.md; 02_kernel/K06,rewritten,
+tests/conftest.py,02_kernel/CONTEXT.md (verification),replaced,behaviour under test (est) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_backtest_holdout.py,02_kernel/K04_scoring-backtest.xlsx (Checks),replaced,behaviour under test (backtest_holdout) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_backtest_learn.py,02_kernel/K04_scoring-backtest.xlsx (Checks),replaced,behaviour under test (backtest_learn) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_backtest_scenario.py,02_kernel/K04_scoring-backtest.xlsx (Checks),replaced,behaviour under test (backtest_scenario) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_backtest_score.py,02_kernel/K04_scoring-backtest.xlsx (Checks),replaced,behaviour under test (backtest_score) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_backtest_snapshot.py,02_kernel/K04_scoring-backtest.xlsx (Checks),replaced,behaviour under test (backtest_snapshot) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cash13_flows.py,02_kernel/K02_13-week-cash.xlsx (Checks; examples/ridgeline-parity GOLDEN),replaced,behaviour under test (cash13_flows) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cash13_forecast.py,02_kernel/K02_13-week-cash.xlsx (Checks; examples/ridgeline-parity GOLDEN),replaced,behaviour under test (cash13_forecast) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cash13_ridgeline.py,02_kernel/K02_13-week-cash.xlsx (Checks; examples/ridgeline-parity GOLDEN),replaced,behaviour under test (cash13_ridgeline) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cash13_runway.py,02_kernel/K02_13-week-cash.xlsx (Checks; examples/ridgeline-parity GOLDEN),replaced,behaviour under test (cash13_runway) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cashflow.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (identity Checks),replaced,behaviour under test (cashflow) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cashflow_fcf.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (identity Checks),replaced,behaviour under test (cashflow_fcf) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cli.py,00_system/command-equivalents.md,replaced,behaviour under test (cli) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cli_model_export.py,00_system/command-equivalents.md,replaced,behaviour under test (cli_model_export) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_cogs.py,02_kernel/K01_monthly-pnl-cash-model.xlsx,replaced,behaviour under test (cogs) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_debt.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (debt roll-forward check),replaced,behaviour under test (debt) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_demo_runner.py,examples/ridgeline-parity/,replaced,behaviour under test (demo_runner) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_divestiture.py,02_kernel/K08_divestiture.xlsx (examples/foxfactory-public-proof Phase D),replaced,behaviour under test (divestiture) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_excel_equivalence.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (Checks + GOLDEN parity),replaced,behaviour under test (excel_equivalence) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_excel_model_structure.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (Checks + GOLDEN parity),replaced,behaviour under test (excel_model_structure) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_excel_toolkit.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (Checks + GOLDEN parity),replaced,behaviour under test (excel_toolkit) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_excel_verify.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (Checks + GOLDEN parity),replaced,behaviour under test (excel_verify) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_foxf_reconciliation.py,examples/foxfactory-public-proof/ (GOLDEN rows in phase workbooks),replaced,behaviour under test (foxf_reconciliation) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_io_adapters.py,02_kernel/K03_source-reconcile.xlsx (parsing),replaced,behaviour under test (io_adapters) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_io_loaders.py,02_kernel/K03_source-reconcile.xlsx (parsing),replaced,behaviour under test (io_loaders) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_io_pl_csv.py,02_kernel/K03_source-reconcile.xlsx (parsing),replaced,behaviour under test (io_pl_csv) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_io_reporting.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (Briefing),replaced,behaviour under test (io_reporting) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_loader.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (schema Checks 1-12),replaced,behaviour under test (loader) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_connectors.py,02_kernel/K03_source-reconcile.xlsx (tolerance 0); 00_system/schemas/connector.md,replaced,behaviour under test (memory_connectors) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_corrections.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (correction Checks); 00_system/schemas/correction.md,replaced,behaviour under test (memory_corrections) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_diagnostics.py,00_system/status-and-doctor.md,replaced,behaviour under test (memory_diagnostics) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_entrypoints.py,00_system/schemas/workflow-registry.md,replaced,behaviour under test (memory_entrypoints) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_experiments.py,00_system/schemas/experiment.md,replaced,behaviour under test (memory_experiments) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_inspection.py,02_kernel/K03_source-reconcile.xlsx (Inspect),replaced,behaviour under test (memory_inspection) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_intake.py,"02_kernel/K10_intake-onboarding.xlsx (Checks, RecordFact)",replaced,behaviour under test (memory_intake) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_lineage.py,02_kernel/K03_source-reconcile.xlsx; 00_system/schemas/source-record.md,replaced,behaviour under test (memory_lineage) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_onboarding.py,02_kernel/K10_intake-onboarding.xlsx (Profile/Proposal),replaced,behaviour under test (memory_onboarding) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_paths.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (ValidKeys),replaced,behaviour under test (memory_paths) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_retrieval.py,02_kernel/K11_memory-retrieval.xlsx,replaced,behaviour under test (memory_retrieval) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_memory_workspace.py,_templates/company/,replaced,behaviour under test (memory_workspace) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_onboarding_agent_contract.py,00_system/operating-contract.md; 02_kernel/K10_intake-onboarding.xlsx,replaced,behaviour under test (onboarding_agent_contract) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_opex.py,02_kernel/K01_monthly-pnl-cash-model.xlsx,replaced,behaviour under test (opex) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_periods.py,02_kernel/K01_monthly-pnl-cash-model.xlsx,replaced,behaviour under test (periods) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_portfolio_library.py,02_kernel/K09_portfolio-learning.xlsx,replaced,behaviour under test (portfolio_library) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_portfolio_manifest.py,02_kernel/K09_portfolio-learning.xlsx,replaced,behaviour under test (portfolio_manifest) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_portfolio_mine.py,02_kernel/K09_portfolio-learning.xlsx,replaced,behaviour under test (portfolio_mine) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_portfolio_recover.py,02_kernel/K09_portfolio-learning.xlsx,replaced,behaviour under test (portfolio_recover) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_portfolio_validate.py,02_kernel/K09_portfolio-learning.xlsx,replaced,behaviour under test (portfolio_validate) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_public_api.py,00_system/kernel-equivalents.md,replaced,behaviour under test (public_api) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_reconcile.py,02_kernel/K03_source-reconcile.xlsx (Results),replaced,behaviour under test (reconcile) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_research_epochs.py,02_kernel/K05_research-evaluator.xlsx,replaced,behaviour under test (research_epochs) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_research_objective.py,02_kernel/K05_research-evaluator.xlsx,replaced,behaviour under test (research_objective) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_research_registry.py,02_kernel/K05_research-evaluator.xlsx,replaced,behaviour under test (research_registry) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_revenue.py,02_kernel/K01_monthly-pnl-cash-model.xlsx,replaced,behaviour under test (revenue) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_segments.py,02_kernel/K07_segment-rollup.xlsx,replaced,behaviour under test (segments) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_sku.py,02_kernel/K06_sku-profitability.xlsx (examples/ridgeline-parity),replaced,behaviour under test (sku) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_sku_ridgeline.py,02_kernel/K06_sku-profitability.xlsx (examples/ridgeline-parity),replaced,behaviour under test (sku_ridgeline) is enforced by the target's Checks/validation rules and was verified during the build
+tests/test_working_capital.py,02_kernel/K01_monthly-pnl-cash-model.xlsx (cumulative WC check),replaced,behaviour under test (working_capital) is enforced by the target's Checks/validation rules and was verified during the build

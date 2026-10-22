@@ -1,0 +1,15 @@
+path,category,title,keywords
+MEMORY.md,MEMORY,Kaveri Chairs Pvt Ltd FP&A Memory,memory md fp a kaveri chairs intake profile sources mappings corrections forecasts
+business-profile.md,business-profile,Kaveri Chairs Pvt Ltd Business Profile,business profile dealer online d2c institutional seasonality deepavali pongal aadi gst msme cash credit
+corrections/2025-12-05-cyclone-dispatch-delay.md,corrections,2025 12 05 Cyclone Dispatch Delay,context cyclone dispatch delay one-off november december dealer delta
+corrections/2026-03-20-dealer-november-deepavali.md,corrections,2026 03 20 Dealer November Deepavali,parametric applied channels seasonality november deepavali dealer 1.45
+decisions/initial-model-architecture.md,decisions,Initial Model Architecture Proposal,architecture approved k01 k02 tally connector sku-profitability dealer
+forecasts/Budget-FY2026-27.snapshot.md,forecasts,Budget FY2026 27.Snapshot,snapshot budget fy2026-27 predicted ending_cash ebitda revenue gross_margin
+intake.csv,intake,Intake,intake facts business_model revenue_model collections financing gst tds payroll msme
+learnings.md,learnings,Learnings,learnings dealer november seasonality
+models/model-versions.csv,models,Model Versions,champion kvr-k01-v1-budget
+models/workflows.csv,models,Workflows,workflows cash close forecast connector kvr-cash13
+research/objective.md,research,Research objective,objective metrics ending_cash_error ebitda_error
+scorecard.md,scorecard,Forecast Scorecard,scorecard
+sources/registry.csv,sources,Registry,sources tally-pl-monthly bank-flash-weekly ar-aging
+mappings/registry.csv,mappings,Registry,mappings tally ledgers revenue cogs opex ignored gst interest

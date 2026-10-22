@@ -1,0 +1,21 @@
+source_id,source_value,target,status,rationale
+tally-pl-monthly,Advertisement & Dealer Meets,opex.marketing,mapped,
+tally-pl-monthly,Depreciation,da,mapped,
+tally-pl-monthly,Electricity (TNPDCL) & Maintenance,opex.rent_facilities,mapped,
+tally-pl-monthly,Factory Wages & Job Work,income_statement.cogs,mapped,
+tally-pl-monthly,Freight Outward,opex.freight,mapped,
+tally-pl-monthly,Interest on Cash Credit,,ignored,modelled in K01 debt schedule
+tally-pl-monthly,Interest on TIIC Term Loan,,ignored,modelled in K01 debt schedule
+tally-pl-monthly,Marketplace Commission & Fees,income_statement.cogs,mapped,channel cost kept in online COGS
+tally-pl-monthly,Output CGST,,ignored,GST control ledger - GST cash in K02 via D24
+tally-pl-monthly,Output SGST,,ignored,GST control ledger - GST cash in K02 via D24
+tally-pl-monthly,PF & ESI - Employer,opex.payroll,mapped,
+tally-pl-monthly,"Professional Fees, Software & Admin",opex.admin,mapped,
+tally-pl-monthly,Purchase - Rubberwood & Teak,income_statement.cogs,mapped,
+tally-pl-monthly,Purchase - Steel & Mechanisms (incl. import),income_statement.cogs,mapped,
+tally-pl-monthly,Rent - Factory Land (related party),opex.rent_facilities,mapped,RPT - see D28
+tally-pl-monthly,Salaries & Staff Welfare (office/sales),opex.payroll,mapped,
+tally-pl-monthly,Sales - Domestic (TN) @18%,income_statement.revenue,mapped,
+tally-pl-monthly,Sales - Interstate (Kerala/Karnataka) @18%,income_statement.revenue,mapped,
+tally-pl-monthly,Sales - Marketplace (Amazon/Flipkart),income_statement.revenue,mapped,
+tally-pl-monthly,Sales Returns & Dealer Schemes,income_statement.revenue,mapped,schemes are revenue deductions (Ind AS 115 / AS 9)

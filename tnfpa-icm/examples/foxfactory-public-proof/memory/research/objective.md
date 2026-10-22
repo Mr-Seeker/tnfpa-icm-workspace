@@ -1,0 +1,24 @@
+---
+metrics:
+- name: revenue_error
+  weight: 0.3
+  direction: lower
+- name: gross_profit_error
+  weight: 0.2
+  direction: lower
+- name: adjusted_ebitda_error
+  weight: 0.3
+  direction: lower
+- name: working_capital_balance_error
+  weight: 0.2
+  direction: lower
+hard_checks:
+- holdout separation
+- segment rollup
+- working capital continuity
+min_improvement: 0.02
+complexity_penalty: 0.01
+max_metric_regression: 0.5
+---
+# Research objective (Fox Factory FY2025 holdout)
+Converted unchanged from openfpa `.fpa/research/objective.yaml`.

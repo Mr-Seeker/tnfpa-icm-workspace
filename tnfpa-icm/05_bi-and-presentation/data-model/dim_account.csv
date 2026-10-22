@@ -1,0 +1,12 @@
+target,statement,line_group,sign,schedule_iii_line,description
+income_statement.revenue,P&L,Revenue,+,Revenue from operations,Net sales excluding GST
+income_statement.cogs,P&L,COGS,-,Cost of materials consumed,Materials and direct costs
+opex.payroll,P&L,Opex,-,Employee benefits expense,Loaded payroll
+opex.marketing,P&L,Opex,-,Other expenses,Selling and marketing
+opex.rent_facilities,P&L,Opex,-,Other expenses,Rent and facilities
+opex.admin,P&L,Opex,-,Other expenses,Administration
+da,P&L,D&A,-,Depreciation and amortisation expense,Depreciation and amortisation
+balance_sheet.ar,Balance sheet,Working capital,+,Trade receivables,Debtors
+balance_sheet.ap,Balance sheet,Working capital,-,Trade payables,Creditors (MSME separately)
+balance_sheet.inventory,Balance sheet,Working capital,+,Inventories,Stock
+balance_sheet.cash,Balance sheet,Cash,+,Cash and cash equivalents,Bank and cash

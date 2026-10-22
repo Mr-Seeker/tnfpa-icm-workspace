@@ -1,0 +1,28 @@
+tally_group_or_account_type,typical_tally_ledgers,schedule_iii_line,section,kernel_target,sign_in_tb_export
+Sales Accounts,Sales - Domestic; Sales - Interstate; Sales - Export; Sales Returns,Revenue from operations,Income,income_statement.revenue,Cr
+Direct Incomes,Job work income; Scrap sales,Revenue from operations (other operating revenue),Income,income_statement.revenue_other,Cr
+Indirect Incomes,Interest received; Discount received; Rent received,Other income,Income,income_statement.other_income,Cr
+Purchase Accounts,Purchase - Raw material; Purchase - Interstate; Purchase - Import,Cost of materials consumed / Purchases of stock-in-trade,Expenses,income_statement.cogs,Dr
+Direct Expenses,Freight inward; Job work charges; Power & fuel (factory); Factory wages,Cost of materials consumed / Other expenses (direct),Expenses,income_statement.cogs,Dr
+Stock-in-hand,Opening stock; Closing stock,Changes in inventories,Expenses,income_statement.cogs (inventory change),Dr
+Indirect Expenses - salaries,Salaries & wages; Bonus; Gratuity; PF employer; ESI employer; Staff welfare,Employee benefits expense,Expenses,opex.payroll,Dr
+Indirect Expenses - selling,Advertisement; Sales promotion; Dealer incentives; Commission; Marketplace fees,Other expenses,Expenses,opex.marketing,Dr
+Indirect Expenses - rent & facilities,Rent; Electricity (office); Repairs & maintenance; Security,Other expenses,Expenses,opex.rent_facilities,Dr
+Indirect Expenses - admin,Professional fees; Audit fees; Printing; Telephone; Software subscriptions; Bank charges,Other expenses,Expenses,opex.admin,Dr
+Indirect Expenses - finance,Interest on CC/OD; Interest on term loan; Processing fees,Finance costs,Expenses,ignored (modelled in debt schedule),Dr
+Indirect Expenses - depreciation,Depreciation,Depreciation and amortisation expense,Expenses,da,Dr
+Duties & Taxes - GST,Output CGST; Output SGST; Output IGST; Input CGST/SGST/IGST; GST TCS receivable,Other current liabilities / Other current assets,Liabilities,ignored (GST cash modelled in K02 via D24),Cr/Dr
+Duties & Taxes - TDS,TDS payable 194C/194J/192; TDS receivable,Other current liabilities / Other current assets,Liabilities,ignored (TDS cash modelled in K02 via D24),Cr/Dr
+Provisions,Provision for tax; Provision for gratuity; Provision for bonus,Short-/long-term provisions,Liabilities,balance_sheet.provisions,Cr
+Sundry Creditors,Supplier ledgers (tag MSME separately),Trade payables - MSME / others,Liabilities,balance_sheet.ap,Cr
+Sundry Debtors,Customer and dealer ledgers,Trade receivables,Assets,balance_sheet.ar,Dr
+Bank Accounts,Current accounts,Cash and cash equivalents,Assets,balance_sheet.cash,Dr
+Bank OD A/c,Cash credit; Overdraft,Short-term borrowings,Liabilities,debt.cash_credit (K01 loc),Cr
+Secured Loans,Term loan; Vehicle loans; WCDL,Long-term borrowings / current maturities,Liabilities,debt.term_loan (K01 term_loan),Cr
+Unsecured Loans,Loans from directors / relatives / ICDs,Long-term or short-term borrowings,Liabilities,debt.unsecured,Cr
+Fixed Assets,Land; Building; Plant & machinery; Furniture; Vehicles; Computers,Property plant and equipment,Assets,balance_sheet.ppe,Dr
+Capital Work-in-progress,Projects under construction,Capital work-in-progress,Assets,balance_sheet.cwip,Dr
+Investments,Fixed deposits > 3 months; Mutual funds,Investments / Other bank balances,Assets,balance_sheet.investments,Dr
+Loans & Advances (Asset),Security deposits; Advances to suppliers; Staff advances,Other current / non-current assets,Assets,balance_sheet.other_assets,Dr
+Capital Account,Share capital; Partners' capital,Equity share capital,Equity,balance_sheet.equity,Cr
+Reserves & Surplus,General reserve; Profit & loss account,Other equity,Equity,balance_sheet.reserves,Cr

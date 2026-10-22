@@ -1,0 +1,11 @@
+direction,name,amount,start_week,recurrence
+receipt,D2C daily sales,38000,1,weekly
+receipt,Amazon payout,95000,2,biweekly
+receipt,Wholesale AR collection,120000,4,once
+receipt,Wholesale AR collection,120000,9,once
+disbursement,Payroll,55000,1,biweekly
+disbursement,Inventory PO deposit,220000,3,once
+disbursement,Inventory PO balance,240000,6,once
+disbursement,Operating overhead,23000,1,weekly
+disbursement,Marketing,18000,1,weekly
+disbursement,Quarterly tax estimate,60000,11,once

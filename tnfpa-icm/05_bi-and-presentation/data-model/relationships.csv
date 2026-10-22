@@ -1,0 +1,7 @@
+from_table,from_column,to_table,to_column,cardinality,notes
+fact_monthly_model,period,dim_period_india,period,many-to-one,month key YYYY-MM
+fact_actuals,period,dim_period_india,period,many-to-one,month key YYYY-MM
+fact_actuals,target,dim_account,target,many-to-one,mapping target
+fact_monthly_model,company_slug,dim_entity,company_slug,many-to-one,
+fact_cash13,company_slug,dim_entity,company_slug,many-to-one,
+fact_scorecard,company_slug,dim_entity,company_slug,many-to-one,

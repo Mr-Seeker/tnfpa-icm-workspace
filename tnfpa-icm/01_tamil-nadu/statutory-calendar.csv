@@ -1,0 +1,33 @@
+obligation,law_or_portal,frequency,due_rule,due_day,due_months,applies_to,cash_flow_for_K02,kernel_or_domain_link,verify
+GST outward details GSTR-1 (monthly),CGST Act / GSTN,monthly,11th of next month,11,all,registered taxpayers (monthly filers),no,D24,yes
+GST summary return + cash payment GSTR-3B (monthly),CGST Act / GSTN,monthly,20th of next month,20,all,monthly filers,yes - GST cash payable from D24,K02 disbursement; D24 GST sheet,yes
+GSTR-3B under QRMP (quarterly; Tamil Nadu in the 22nd group),CGST Act / GSTN,quarterly,22nd of month after quarter,22,Jul;Oct;Jan;Apr,QRMP taxpayers (AATO up to 5 crore),yes,K02 disbursement,yes
+GST monthly payment under QRMP (PMT-06),CGST Act / GSTN,monthly (first 2 months of quarter),25th of next month,25,all,QRMP taxpayers,yes,K02 disbursement,yes
+GST annual return GSTR-9 / reconciliation GSTR-9C,CGST Act / GSTN,annual,31 December after FY,31,Dec,above notified turnover thresholds,no,D03; D24,yes
+TDS/TCS deposit,Income-tax Act / TRACES,monthly,7th of next month (March: 30 April),7,all,deductors,yes - TDS deducted from D24 register,K02 disbursement,yes
+TDS quarterly statements 24Q/26Q,Income-tax Act / TRACES,quarterly,31 Jul / 31 Oct / 31 Jan / 31 May,31,Jul;Oct;Jan;May,deductors,no,D24,yes
+Advance tax instalment 1 (15%),Income-tax Act,annual,15 June,15,Jun,companies and other taxpayers,yes,K02 disbursement; D24 AdvanceTax,yes
+Advance tax instalment 2 (45% cumulative),Income-tax Act,annual,15 September,15,Sep,companies,yes,K02 disbursement,yes
+Advance tax instalment 3 (75% cumulative),Income-tax Act,annual,15 December,15,Dec,companies,yes,K02 disbursement,yes
+Advance tax instalment 4 (100%),Income-tax Act,annual,15 March,15,Mar,companies,yes,K02 disbursement,yes
+Income-tax return (companies; audit cases),Income-tax Act,annual,31 October (transfer pricing cases 30 November),31,Oct,companies,yes - self-assessment tax balance,D24,yes
+Tax audit report,Income-tax Act (s.44AB / new Act equivalent),annual,30 September,30,Sep,above turnover threshold,no,D03,yes
+Transfer pricing accountant's report (3CEB equivalent),Income-tax Act,annual,31 October,31,Oct,international / specified domestic transactions,no,D24,yes
+EPF remittance and ECR,EPF & MP Act / EPFO,monthly,15th of next month,15,all,establishments with 20+ employees,yes - from D04,K02 disbursement,yes
+ESI contribution,ESI Act / ESIC,monthly,15th of next month,15,all,notified areas; employees up to wage limit,yes - from D04,K02 disbursement,yes
+Tamil Nadu professional tax (employer remittance),TN local bodies (e.g. Greater Chennai Corporation),half-yearly,per local body notice (half-years Apr-Sep / Oct-Mar),,Sep;Mar,employers in TN,yes,K02 disbursement; D04,yes
+Tamil Nadu Labour Welfare Fund contribution,TN Labour Welfare Fund Act 1972,annual,31 January,31,Jan,employers in TN,yes,K02 disbursement; D04,yes
+Statutory bonus payment,Payment of Bonus Act / Code on Wages,annual,within 8 months of FY end (often before Deepavali),,Oct;Nov,eligible employees,yes,K02 disbursement; D04,yes
+Annual general meeting,Companies Act s.96,annual,within 6 months of FY end (30 September),30,Sep,companies,no,D03; D28,yes
+Financial statements filing AOC-4,Companies Act / MCA21,annual,30 days from AGM,,Oct,companies,no,D03,yes
+Annual return MGT-7 / MGT-7A,Companies Act / MCA21,annual,60 days from AGM,,Nov,companies,no,D03,yes
+MSME-1 half-yearly return (dues to micro/small > 45 days),Companies Act / MCA21,half-yearly,30 April and 31 October,30,Apr;Oct,companies with such dues,no,D12,yes
+DIR-3 KYC (directors),Companies Act / MCA21,annual,30 September,30,Sep,directors with DIN,no,D28,yes
+DPT-3 return of deposits,Companies Act / MCA21,annual,30 June,30,Jun,companies,no,D03,yes
+CSR annual action / unspent amount transfer,Companies Act s.135,annual,unspent (non-ongoing) within 6 months of FY end,30,Sep,CSR-applicable companies,yes,K02 disbursement; D28,yes
+Listed: quarterly results,SEBI LODR Reg 33,quarterly,45 days from quarter end (Q4/annual: 60 days),,Aug;Nov;Feb;May,listed entities,no,D19,yes
+Listed: shareholding pattern,SEBI LODR Reg 31,quarterly,21 days from quarter end,21,Jul;Oct;Jan;Apr,listed entities,no,D19,yes
+Listed: BRSR with annual report,SEBI LODR Reg 34(2)(f),annual,with annual report,,Aug;Sep,top 1000 listed by market cap,no,D23,yes
+Property tax (Chennai and other ULBs),TN urban local bodies,half-yearly,per local body (first and second half-year),,Sep;Mar,property owners / lessees per lease,yes,K02 disbursement; D18,yes
+TNPCB consent to operate renewal,Water & Air Acts / TNPCB,per consent validity,before consent expiry,,,red/orange/green category units,yes - fee,D23,yes
+Factory licence renewal,Factories Act / TN Factories Rules,per licence,before expiry,,,factories,yes - fee,D04,yes

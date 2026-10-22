@@ -1,0 +1,57 @@
+---
+schema_version: 1
+epoch_id: foxf-fy2025-001-broad-mean-reversion
+created: '2026-06-09'
+status: discarded
+hypothesis: After the FY2024 trough, both segment revenue and margins recover halfway
+  toward FY2023.
+champion_id: foxf-flat-fy2024-run-rate
+challenger_id: foxf-broad-half-mean-reversion
+memory_sources:
+- memory/business-profile.md
+- data/raw/segments.csv
+- data/raw/income_statement.csv
+- data/raw/balance_sheet.csv
+- data/raw/cash_flow.csv
+files_changed:
+- models/phaseB_ch1-broad-mean-reversion.xlsx
+training_periods:
+- FY2023
+- FY2024
+holdout_periods:
+- FY2025
+checks:
+- name: holdout separation
+  result: pass
+  details: Candidate uses FY2023-FY2024 only; FY2025 is held out.
+- name: segment rollup
+  result: pass
+  details: Candidate segment sales and Adjusted EBITDA roll to consolidated.
+- name: working capital continuity
+  result: pass
+  details: FY2025 opens from reported FY2024 balances.
+evaluation:
+  champion_metrics:
+    revenue_error: 0.05002313740483523
+    gross_profit_error: 0.04437931898016257
+    adjusted_ebitda_error: 0.010274974079948958
+    working_capital_balance_error: 0.07038772042962037
+  challenger_metrics:
+    revenue_error: 0.026082568163340182
+    gross_profit_error: 0.001598294044893374
+    adjusted_ebitda_error: 0.2039435621042006
+    working_capital_balance_error: 0.06349156763815528
+  per_metric_improvement:
+    revenue_error: 0.4785899182561259
+    gross_profit_error: 0.9639856112797087
+    adjusted_ebitda_error: -1.0
+    working_capital_balance_error: 0.09797380493889486
+  weighted_improvement: 0.05596885872055847
+  complexity_cost: 0.0010000000000000009
+  objective_gain: 0.05496885872055847
+  hard_checks_passed: true
+  regression_guard_passed: false
+  promotion_eligible: false
+notes: A deliberately simple annual holdout, not a claim of production-grade validation.
+---
+Converted from openfpa; evaluation reproduced by `models/phaseB_K05_epochs.xlsx`.

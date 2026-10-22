@@ -1,0 +1,2 @@
+name,kind,description,procedure,workbook,working_directory,inputs,outputs,registered_at
+foxf-pipeline,forecast,"Fox actual-driver reproduction, historical holdout, forward forecast, and Marucci sensitivity",models/pipeline-runbook.md,models/,.,data/raw/income_statement.csv; data/raw/balance_sheet.csv; data/raw/cash_flow.csv; data/raw/segments.csv; data/raw/quarterly.csv,output/reconciliation.md; output/historical-holdout.md; output/forecast-briefing.md; output/divestiture.md,2026-06-09

@@ -1,0 +1,3 @@
+model_id,role,created,artifact,source_epoch,description,retired_at
+foxf-flat-fy2024-run-rate,champion,2026-06-09,models/phaseB_champion-flat-fy2024.xlsx,,Flat FY2024 operating run rate used as the FY2025 holdout champion.,
+foxf-revenue-recovery-slow-margin,challenger,2026-06-09,models/phaseB_ch2-slow-margin-recovery.xlsx,foxf-fy2025-002-slow-margin-recovery,Revenue recovery with slower margin recovery.,

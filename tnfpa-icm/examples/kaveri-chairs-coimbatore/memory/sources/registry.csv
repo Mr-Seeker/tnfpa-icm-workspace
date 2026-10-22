@@ -1,0 +1,4 @@
+source_id,kind,location,entity,currency,periods,extraction_method,refreshed_at,notes
+ar-aging-2026-03,local_file,data/raw/ar-aging-2026-03.csv,Kaveri Chairs Pvt Ltd (33),INR,2026-03,Tally Prime > Display More Reports > Statements of Accounts > Outstandings > Receivables > Export,2026-04-03,dealer ageing for DSO
+bank-flash-weekly,local_file,data/raw/indian-bank-statement-2026-04-03.csv,Kaveri Chairs Pvt Ltd (33),INR,2026-04-03,Net-banking statement export by accounts executive,2026-04-03,flash basis for K02 opening cash
+tally-pl-monthly,accounting_system,data/raw/tally-pl-FY2025-26.csv,Kaveri Chairs Pvt Ltd (33),INR,FY2025-26,"Tally Prime > Profit & Loss A/c (F2 period 1-Apr-2025 to 31-Mar-2026) > Ctrl+E > CSV, ledger-wise, closing balances",2026-04-02,audited figures pending

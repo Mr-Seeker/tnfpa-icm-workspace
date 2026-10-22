@@ -1,0 +1,11 @@
+table,column,type,description
+fact_monthly_model,scenario,text,champion / LE-<month> / challenger-<slug> / stress-<id>
+fact_monthly_model,period,text,YYYY-MM calendar month
+fact_monthly_model,indian_fiscal_year,text,FYyyyy-yy (April-March)
+fact_monthly_model,fiscal_quarter,text,Q1 Apr-Jun ... Q4 Jan-Mar
+fact_monthly_model,revenue..inv_balance,number,full rupees from K01 Export_Rows (values)
+fact_actuals,amount,number,full rupees after K03 parsing and mapping
+fact_cash13,week_starting,date,ISO date
+fact_scorecard,err_*,number,signed error = predicted/actual - 1
+dim_period_india,period,text,YYYY-MM key
+dim_period_india,festival_flags,text,major Tamil Nadu festivals/seasons in the month (planning cue only)
