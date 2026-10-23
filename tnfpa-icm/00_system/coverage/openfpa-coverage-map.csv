@@ -5,7 +5,7 @@
 AGENTS.md,00_system/operating-contract.md; 00_system/guardrails.md; AGENTS.md (pointer),rewritten,every rule kept; CLI/Python references replaced
 CLAUDE.md,CLAUDE.md,rewritten,routing + onboarding steps; CLI calls → file procedures
 CONTRIBUTING.md,00_system/no-code-policy.md; 00_system/CONTEXT.md (method changes via decision files),replaced,"contribution = new workbooks/contracts under the no-code policy, never real client data"
-LICENSE,README.md (licence and credit section),carried,MIT attribution to openfpa authors retained
+LICENSE,THIRD_PARTY_NOTICES.md and NOTICE (repository root),carried,openfpa MIT licence text and copyright notice retained in full
 README.md,README.md; CONTEXT.md,rewritten,"intent, workflow, design principles carried over; Python install steps replaced by 'open the folder with your agent'"
 docs/agent-native-workspace.md,CONTEXT.md; 00_system/operating-contract.md; _templates/company/,rewritten,"workspace shape, onboarding, memory, research, mutation rules"
 docs/blog/launch.md,README.md,summarised,launch narrative superseded by README

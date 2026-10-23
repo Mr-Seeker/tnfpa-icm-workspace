@@ -2,6 +2,8 @@
 
 > 📘 **User Manual** (this page) · 📄 [Project README](tnfpa-icm/README.md) · ⚖️ [License — Apache 2.0](LICENSE)
 
+**Built on** [openfpa](https://github.com/JeffBrines/openfpa) by Jeff Brines (MIT, © 2026 Guiderail) and [Interpretable Context Methodology](https://arxiv.org/abs/2603.16021) by Jake Van Clief and David McDermott (MIT). See [NOTICE](NOTICE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 ### 🚀 Get started in 3 steps
 
 1. **Download:** go to **Releases → v1.0 → Source code (zip)** and unzip it. If you have a GitHub account, you can click **Use this template** instead to get your own copy.
@@ -16,15 +18,40 @@ Full walkthrough: [§2 Quick start](#2-quick-start)
 - **[Fox Factory public proof](tnfpa-icm/examples/foxfactory-public-proof)**: rebuilt from real public SEC filings and reproduces the published figures.
 - **[Ridgeline parity](tnfpa-icm/examples/ridgeline-parity)**: reproduces openfpa's published outputs exactly.
 
+### ✅ Check it yourself
+
+Open the workbook in any spreadsheet app, let it recalculate, go to the cell, and compare it with openfpa's published figure. Each workbook's **Checks** sheet should also read **OVERALL = PASS**.
+
+| Example | Figure | Published by openfpa | Where to find ours |
+| --- | --- | --- | --- |
+| Ridgeline | Revenue | [$6,000,000](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | [`K01_ridgeline.xlsx`](tnfpa-icm/examples/ridgeline-parity/models/K01_ridgeline.xlsx) › Summary › B5 |
+| Ridgeline | EBITDA | [$824,000](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | `K01_ridgeline.xlsx` › Summary › B9 |
+| Ridgeline | Net income | [$572,651](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | `K01_ridgeline.xlsx` › Summary › B14 (572,651.25 before rounding) |
+| Ridgeline | Ending cash | [$720,418](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | `K01_ridgeline.xlsx` › Summary › B21 (720,417.92 before rounding) |
+| Ridgeline | 13-week cash trough | [−$146,000 in week 7](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | [`K02_ridgeline.xlsx`](tnfpa-icm/examples/ridgeline-parity/models/K02_ridgeline.xlsx) › Runway › B4 and B5 |
+| Ridgeline | First negative week | [Week 3](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/docs/demo/briefing.md) | `K02_ridgeline.xlsx` › Runway › B6 |
+| Fox Factory | Epoch 001 objective gain (discarded) | [0.0549689](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/examples/foxfactory/.fpa/research/foxf-fy2025-001-broad-mean-reversion.epoch.yaml#L50) | [`phaseB_K05_epochs.xlsx`](tnfpa-icm/examples/foxfactory-public-proof/models/phaseB_K05_epochs.xlsx) › Epochs › AW5 |
+| Fox Factory | Epoch 002 objective gain (proposed) | [0.6141956](https://github.com/JeffBrines/openfpa/blob/ddac4e90edc7b93392d94f33c8f579100fe3f7e7/examples/foxfactory/.fpa/research/foxf-fy2025-002-slow-margin-recovery.epoch.yaml#L50) | `phaseB_K05_epochs.xlsx` › Epochs › AW6 |
+
 ### ⚠️ Disclaimer
 
 This workspace is a planning and analysis tool. It is not tax, legal, accounting or investment advice. Statutory rates, thresholds and due dates (GST, TDS, PF/ESI, professional tax and others) change, so confirm them against current rules and with your CA or tax adviser, and record confirmations in `tnfpa-icm/01_tamil-nadu/verification-register.md`. The example companies use synthetic data. Provided "as is" under the Apache 2.0 License, without warranty.
+
+### 🛡️ Why a CFO can trust it
+
+- **You approve what matters.** Two human gates: the model architecture, and every promotion of a new champion forecast model. Each gate passes only with a named human approver and a date.
+- **The agent asks before it reaches out.** It asks before reading any live system (Tally, Zoho, SAP, NetSuite, bank portals, tax portals, email) and prefers files you hand it. It also asks before any other external access, before writing any generated skill or agent, and before any message is sent. Sending an email or message always needs your separate, explicit instruction.
+- **No hidden code.** The agent never writes or runs code. Every number comes from a live-formula spreadsheet your team can open and audit.
+- **Changes are bounded.** A forecast tweak must improve holdout fitness and can move a driver by at most 25% per cycle.
+- **Rates are checked, not assumed.** Statutory rates and due dates are logged with their official source and last-verified date.
+
+Full rules: [The two human gates](#the-two-human-gates) · [All 18 guardrails](#guardrails-all-18-from-guardrailsmd) · [Data handling](DATA-HANDLING.md)
 
 ---
 
 ## 1. Introduction
 
-The TN-FPA ICM workspace is a folder-based, no-code FP&A system for Tamil Nadu companies: an AI agent reads its markdown contracts, spreadsheets do every calculation, and humans approve two gates. It replaces the open-source openfpa toolkit (Python, CLI, tests) with folders, markdown, CSV registries and formula-driven workbooks, laid out using Interpretable Context Methodology (ICM).
+The TN-FPA ICM workspace is a folder-based, agent-native FP&A system: an AI agent reads its markdown contracts, spreadsheets do every calculation, and humans approve two gates. This reference build ships with an India and Tamil Nadu localisation layer (Indian fiscal year, GST, TDS, PF/ESI, lakh and crore reporting). It replaces the open-source openfpa toolkit (Python, CLI, tests) with folders, markdown, CSV registries and formula-driven workbooks, laid out using Interpretable Context Methodology (ICM).
 
 **What it does for one company:** learns the business, builds a monthly P&L and cash model, wires in actuals from Tally, Zoho or bank exports, runs month-end closes and 13-week cash runways, produces board decks and memos, and improves the forecast over time from its own misses.
 
@@ -550,7 +577,7 @@ Follow `02_kernel/formula-reference.md`: sheets README, Assumptions, calculation
 
 ### How the kernel was verified
 
-Each workbook was evaluated by an independent formula engine and compared with an independent re-implementation of openfpa and with openfpa's published outputs: K01/K02 reproduce Ridgeline to < 1e-12 relative error (and the briefing text exactly); K05 reproduces both Fox Factory epochs (gains 0.05497 discarded, 0.61420 proposed); K07 and K08 reproduce the Fox FY2026–27 segment forecast and the Marucci divestiture table. Files were also re-checked in Google Drive's own recalculation on 2026-10-18/19.
+Each workbook was evaluated by an independent formula engine and compared with an independent re-implementation of openfpa and with openfpa's published outputs: K01/K02 reproduce Ridgeline to < 1e-12 relative error, that is, a difference of less than one part in a trillion (and the briefing text exactly); K05 reproduces both Fox Factory epochs (gains 0.05497 discarded, 0.61420 proposed); K07 and K08 reproduce the Fox FY2026–27 segment forecast and the Marucci divestiture table. Files were also re-checked in Google Drive's own recalculation on 2026-10-18/19.
 
 ## 7. The 29 domain modules (D01–D29)
 

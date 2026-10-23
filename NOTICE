@@ -1,0 +1,13 @@
+TN-FPA ICM Workspace
+Copyright 2026 Mr-Seeker
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+This product includes material copied or adapted from openfpa
+(https://github.com/JeffBrines/openfpa), Copyright (c) 2026 Guiderail,
+licensed under the MIT License. The full licence text and the list of
+copied and adapted files are in THIRD_PARTY_NOTICES.md.
+
+The workspace structure follows Interpretable Context Methodology (ICM)
+by Jake Van Clief and David McDermott (arXiv:2603.16021), released under
+the MIT License. No ICM files are copied into this repository.
