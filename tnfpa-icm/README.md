@@ -1,6 +1,6 @@
 # TN-FPA ICM Workspace
 
-**A no-code, AI-agent-native FP&A workbench for Tamil Nadu companies.**
+**A no-code, AI-agent-native FP&A workbench, with an India and Tamil Nadu localisation layer.**
 
 This folder is a complete replacement for [openfpa](https://github.com/JeffBrines/openfpa) by Jeff Brines,
 restructured as an Interpretable Context Methodology (ICM) workspace in the style of Jake Van Clief
@@ -47,6 +47,7 @@ the model architecture, and every champion-model promotion.
 
 ## Licence and credit
 
-openfpa is MIT-licensed (© its authors; built by Guiderail). ICM is MIT-licensed (Van Clief & McDermott).
-This workspace keeps both attributions. Statutory rates in `01_tamil-nadu/` change — always check
+openfpa is MIT-licensed (Copyright (c) 2026 Guiderail). ICM is MIT-licensed (Van Clief & McDermott).
+Both attributions, and openfpa's full licence text, are in [`NOTICE`](../NOTICE) and
+[`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) at the repository root. Statutory rates in `01_tamil-nadu/` change — always check
 `01_tamil-nadu/verification-register.md` before relying on one.
