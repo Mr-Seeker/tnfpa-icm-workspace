@@ -6,7 +6,7 @@
 
 ### 🚀 Get started in 3 steps
 
-1. **Download:** go to **Releases → v1.0 → Source code (zip)** and unzip it. If you have a GitHub account, you can click **Use this template** instead to get your own copy.
+1. **Download:** go to **Releases → v1.0.1 → Source code (zip)** and unzip it. If you have a GitHub account, you can click **Use this template** instead to get your own copy.
 2. **Open the `tnfpa-icm` folder with your AI agent** (Claude, Codex or any agent that can read and edit files). You also need a spreadsheet app that recalculates `.xlsx` files: Excel, LibreOffice Calc, Google Sheets, OnlyOffice, Zoho Sheet or WPS. There's nothing to install and no code to run.
 3. **Tell the agent:** *"Help me onboard our company. Our Tally exports are in ./company-data. Inspect them first, then ask me only what you cannot determine."*
 
